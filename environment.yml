@@ -1,0 +1,19 @@
+name: mlops-zoomcamp
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - jupyter
+  - notebook
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - black
+  - pip:
+    - mlflow
+    - fastapi
+    - uvicorn
+    - python-dotenv
